@@ -33,6 +33,15 @@ export class VentaProducto extends Entity {
   })
   precioUnitario: number;
 
+  @property({
+    type: 'number',
+  })
+  productoId?: number;
+
+  @property({
+    type: 'number',
+  })
+  ventaId?: number;
   // Define well-known properties here
 
   // Indexer property to allow additional data
